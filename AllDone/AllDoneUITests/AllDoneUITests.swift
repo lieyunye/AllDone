@@ -2,8 +2,8 @@
 //  AllDoneUITests.swift
 //  AllDoneUITests
 //
-//  Created by lieyunye on 12/18/15.
-//  Copyright © 2015 lieyunye. All rights reserved.
+//  Created by lieyunye on 3/24/17.
+//  Copyright © 2017 lieyunye. All rights reserved.
 //
 
 import XCTest
