@@ -1,18 +1,18 @@
 //
-//  ADHomeViewController.swift
+//  ADBaseNavigationController.swift
 //  AllDone
 //
-//  Created by lieyunye on 3/24/17.
+//  Created by lieyunye on 4/6/17.
 //  Copyright © 2017 lieyunye. All rights reserved.
 //
 
 import UIKit
 
-class ADHomeViewController: UIViewController {
+class ADBaseNavigationController: UINavigationController,UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.interactivePopGestureRecognizer?.delegate = self
         // Do any additional setup after loading the view.
     }
 
