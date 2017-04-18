@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FC8316FA1E9EFF4700C2706A /* ADUserInfoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8316F91E9EFF4700C2706A /* ADUserInfoDetailViewController.xib */; };
+		FC8316FD1EA5992200C2706A /* ADUserInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8316FC1EA5992200C2706A /* ADUserInfoHeaderView.swift */; };
+		FC8316FF1EA5992D00C2706A /* ADUserInfoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8316FE1EA5992D00C2706A /* ADUserInfoHeaderView.xib */; };
 		FCB96EC71E84A02700654D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB96EC61E84A02700654D1C /* AppDelegate.swift */; };
 		FCB96ECC1E84A02700654D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB96ECA1E84A02700654D1C /* Main.storyboard */; };
 		FCB96ECE1E84A02700654D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB96ECD1E84A02700654D1C /* Assets.xcassets */; };
@@ -58,6 +60,8 @@
 
 /* Begin PBXFileReference section */
 		FC8316F91E9EFF4700C2706A /* ADUserInfoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADUserInfoDetailViewController.xib; sourceTree = "<group>"; };
+		FC8316FC1EA5992200C2706A /* ADUserInfoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADUserInfoHeaderView.swift; sourceTree = "<group>"; };
+		FC8316FE1EA5992D00C2706A /* ADUserInfoHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADUserInfoHeaderView.xib; sourceTree = "<group>"; };
 		FCB96EC31E84A02700654D1C /* AllDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB96EC61E84A02700654D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCB96ECB1E84A02700654D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC8316FB1EA598FB00C2706A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC8316FC1EA5992200C2706A /* ADUserInfoHeaderView.swift */,
+				FC8316FE1EA5992D00C2706A /* ADUserInfoHeaderView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		FCB96EBA1E84A02700654D1C = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +219,7 @@
 		FCC42A771E946E5D00F3C2E5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FC8316FB1EA598FB00C2706A /* Views */,
 				FC8316F91E9EFF4700C2706A /* ADUserInfoDetailViewController.xib */,
 				FCC42A751E946E5600F3C2E5 /* ADHomeViewController.swift */,
 				FCC42A781E9470A300F3C2E5 /* ADAnnotationView.swift */,
@@ -334,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8316FF1EA5992D00C2706A /* ADUserInfoHeaderView.xib in Resources */,
 				FCB96ED11E84A02700654D1C /* LaunchScreen.storyboard in Resources */,
 				FC8316FA1E9EFF4700C2706A /* ADUserInfoDetailViewController.xib in Resources */,
 				FCB96ECE1E84A02700654D1C /* Assets.xcassets in Resources */,
@@ -363,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC42A791E9470A300F3C2E5 /* ADAnnotationView.swift in Sources */,
+				FC8316FD1EA5992200C2706A /* ADUserInfoHeaderView.swift in Sources */,
 				FCC42A7C1E95BC9F00F3C2E5 /* ADUserInfoDetailViewController.swift in Sources */,
 				FCB96F0B1E85F53D00654D1C /* LocationHelper.swift in Sources */,
 				FCB96EC71E84A02700654D1C /* AppDelegate.swift in Sources */,

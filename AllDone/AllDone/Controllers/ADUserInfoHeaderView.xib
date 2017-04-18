@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="503" height="105"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r2N-t6-cie">
+                    <rect key="frame" x="0.0" y="0.0" width="503" height="105"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H9Y-Dg-9B6">
+                            <rect key="frame" x="0.0" y="0.0" width="503" height="105"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="v8B-fk-1hK">
+                            <rect key="frame" x="0.0" y="0.0" width="503" height="105"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Australia" translatesAutoresizingMaskIntoConstraints="NO" id="YUa-QY-9FU">
+                                    <rect key="frame" x="0.0" y="27.5" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="TSR-jZ-pB4"/>
+                                        <constraint firstAttribute="width" constant="50" id="ufd-E7-nFA"/>
+                                    </constraints>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="3Mf-Ll-eAN">
+                                    <rect key="frame" x="60" y="30" width="443" height="45"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ddddddddddddddddd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdG-RI-sPV">
+                                            <rect key="frame" x="0.0" y="0.0" width="171" height="20.5"/>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZZ-Wd-4lh">
+                                            <rect key="frame" x="0.0" y="24.5" width="42" height="20.5"/>
+                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="H9Y-Dg-9B6" firstAttribute="top" secondItem="r2N-t6-cie" secondAttribute="top" id="2Vr-o7-CgC"/>
+                        <constraint firstAttribute="bottom" secondItem="v8B-fk-1hK" secondAttribute="bottom" id="Ab3-El-YvK"/>
+                        <constraint firstItem="v8B-fk-1hK" firstAttribute="top" secondItem="r2N-t6-cie" secondAttribute="top" id="NeH-CR-s5e"/>
+                        <constraint firstAttribute="trailing" secondItem="H9Y-Dg-9B6" secondAttribute="trailing" id="UIR-CD-Aad"/>
+                        <constraint firstAttribute="bottom" secondItem="H9Y-Dg-9B6" secondAttribute="bottom" id="Wou-yD-aCO"/>
+                        <constraint firstAttribute="trailing" secondItem="v8B-fk-1hK" secondAttribute="trailing" id="fmy-Hl-pu3"/>
+                        <constraint firstItem="H9Y-Dg-9B6" firstAttribute="leading" secondItem="r2N-t6-cie" secondAttribute="leading" id="lbU-hV-JCB"/>
+                        <constraint firstItem="v8B-fk-1hK" firstAttribute="leading" secondItem="r2N-t6-cie" secondAttribute="leading" id="ps6-jM-AvI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="r2N-t6-cie" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5yn-3m-Aau"/>
+                <constraint firstItem="r2N-t6-cie" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="BE3-0G-Qs6"/>
+                <constraint firstAttribute="bottom" secondItem="r2N-t6-cie" secondAttribute="bottom" id="eWc-4P-dM7"/>
+                <constraint firstAttribute="trailing" secondItem="r2N-t6-cie" secondAttribute="trailing" id="pUv-xo-Qgh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-17" y="16"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Australia" width="22" height="22"/>
+    </resources>
+</document>
