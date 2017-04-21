@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ADUserInfoDetailViewController" customModule="AllDone" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="eVa-pb-Nzu" id="4tE-W3-lsg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

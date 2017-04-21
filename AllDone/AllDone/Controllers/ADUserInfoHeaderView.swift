@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ADUserInfoHeaderView: UIView {
+class ADUserInfoHeaderView: NibLoadedView {
 
     /*
     // Only override draw() if you perform custom drawing.

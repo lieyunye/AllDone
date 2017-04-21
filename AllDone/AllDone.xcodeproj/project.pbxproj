@@ -10,6 +10,9 @@
 		FC8316FA1E9EFF4700C2706A /* ADUserInfoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8316F91E9EFF4700C2706A /* ADUserInfoDetailViewController.xib */; };
 		FC8316FD1EA5992200C2706A /* ADUserInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8316FC1EA5992200C2706A /* ADUserInfoHeaderView.swift */; };
 		FC8316FF1EA5992D00C2706A /* ADUserInfoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8316FE1EA5992D00C2706A /* ADUserInfoHeaderView.xib */; };
+		FC8317011EA6E4D300C2706A /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8317001EA6E4D300C2706A /* UIView+NibLoading.swift */; };
+		FC8317041EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8317021EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.swift */; };
+		FC8317051EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8317031EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.xib */; };
 		FCB96EC71E84A02700654D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB96EC61E84A02700654D1C /* AppDelegate.swift */; };
 		FCB96ECC1E84A02700654D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB96ECA1E84A02700654D1C /* Main.storyboard */; };
 		FCB96ECE1E84A02700654D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB96ECD1E84A02700654D1C /* Assets.xcassets */; };
@@ -62,6 +65,9 @@
 		FC8316F91E9EFF4700C2706A /* ADUserInfoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADUserInfoDetailViewController.xib; sourceTree = "<group>"; };
 		FC8316FC1EA5992200C2706A /* ADUserInfoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADUserInfoHeaderView.swift; sourceTree = "<group>"; };
 		FC8316FE1EA5992D00C2706A /* ADUserInfoHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADUserInfoHeaderView.xib; sourceTree = "<group>"; };
+		FC8317001EA6E4D300C2706A /* UIView+NibLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoading.swift"; sourceTree = "<group>"; };
+		FC8317021EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADUserInfoVideoListTableViewCell.swift; sourceTree = "<group>"; };
+		FC8317031EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADUserInfoVideoListTableViewCell.xib; sourceTree = "<group>"; };
 		FCB96EC31E84A02700654D1C /* AllDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB96EC61E84A02700654D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCB96ECB1E84A02700654D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -116,6 +122,8 @@
 			children = (
 				FC8316FC1EA5992200C2706A /* ADUserInfoHeaderView.swift */,
 				FC8316FE1EA5992D00C2706A /* ADUserInfoHeaderView.xib */,
+				FC8317021EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.swift */,
+				FC8317031EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -194,6 +202,7 @@
 		FCB96F0A1E85F53D00654D1C /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				FC8317001EA6E4D300C2706A /* UIView+NibLoading.swift */,
 				FCB96F0C1E85F55000654D1C /* Alamofire.framework */,
 			);
 			path = Libs;
@@ -349,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8316FF1EA5992D00C2706A /* ADUserInfoHeaderView.xib in Resources */,
+				FC8317051EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.xib in Resources */,
 				FCB96ED11E84A02700654D1C /* LaunchScreen.storyboard in Resources */,
 				FC8316FA1E9EFF4700C2706A /* ADUserInfoDetailViewController.xib in Resources */,
 				FCB96ECE1E84A02700654D1C /* Assets.xcassets in Resources */,
@@ -380,10 +390,12 @@
 				FCC42A791E9470A300F3C2E5 /* ADAnnotationView.swift in Sources */,
 				FC8316FD1EA5992200C2706A /* ADUserInfoHeaderView.swift in Sources */,
 				FCC42A7C1E95BC9F00F3C2E5 /* ADUserInfoDetailViewController.swift in Sources */,
+				FC8317041EA6E8DB00C2706A /* ADUserInfoVideoListTableViewCell.swift in Sources */,
 				FCB96F0B1E85F53D00654D1C /* LocationHelper.swift in Sources */,
 				FCB96EC71E84A02700654D1C /* AppDelegate.swift in Sources */,
 				FCC42A761E946E5600F3C2E5 /* ADHomeViewController.swift in Sources */,
 				FCC42A801E95C2A100F3C2E5 /* ADBaseNavigationController.swift in Sources */,
+				FC8317011EA6E4D300C2706A /* UIView+NibLoading.swift in Sources */,
 				FCC42A701E8DD93B00F3C2E5 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
